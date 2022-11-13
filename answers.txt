@@ -1,0 +1,150 @@
+1. The ” var” and “function” are known as _____________.
+
+Option-D = Declarative statements
+Explanation = we use var to declare a variables and function to declare a functions 
+
+
+2. Which of these is a correct output for the JavaScript code given below?
+
+Option-c = Undefined
+Explanation : no keyword or datatype named as a string in a javascript .
+
+
+3. Which of these is known as the Equality operator used for checking whether both the values are equal?
+
+Option-B ==
+
+Explanation : == uses to comapare the values whether they are equal or not.
+
+
+4. function sayHi() {
+  console.log(name);
+  console.log(age);
+  var name = 'Lydia';
+  let age = 21;
+}
+
+sayHi();
+
+Option - D  Undefined and reference error
+
+Explanation : This method of printing variable before declaring is called as
+Hoisting .. By default var name = undefined in the first line . 
+And let is not possible with Hoisting .
+
+
+5. for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 1);
+  }
+  
+  for (let i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 1);
+  }
+
+---- > Not understand i need explanation 
+
+
+
+6.function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const lydia = new Person('Lydia', 'Hallie');
+const sarah = Person('Sarah', 'Smith');
+
+console.log(lydia);
+console.log(sarah);
+
+
+Option - A  Person {firstName: "Lydia", lastName: "Hallie"} and undefined
+
+Explanation : In lydia we used new keyword and not used in sarah .
+
+so lydia will work but sarah not and it gives undefined .
+
+
+7.function sum(a, b) {
+    return a + b;
+  }
+  
+sum(1, '2');
+
+Option A - Nan
+
+Explanation : we didn't have any print statements to print it was just returning . it return "12"
+
+
+8. let number = 0;
+console.log(number++);
+console.log(++number);
+console.log(number);
+
+Option - C 0 2 2
+
+Explanation - first it prints the number and after it has a post increment and the value 
+got updated to 1 and in second line it has preincrement again it updated to 2 and print 2 
+and third line prints the number which is updated to 2
+
+
+
+9. var num = 8;
+var num = 10;
+
+console.log(num);
+A: 8
+B: 10
+C: SyntaxError
+D: ReferenceError
+
+
+Option - b
+
+Explanation : It will take the updated previous declared value so it prints 10
+
+
+
+10. const obj = { a: 'one', b: 'two', a: 'three' };
+console.log(obj);
+A: { a: "one", b: "two" }
+B: { b: "two", a: "three" }
+C: { a: "three", b: "two" }
+D: SyntaxError
+
+
+Option - C 
+
+explanation - first we have a as one and after we declared as three so it takes three as value
+and it print a : three and b : two
+
+
+
+11. Output of code 
+var text = 'outside';
+function logIt(){
+    console.log(text);
+    var text = 'inside';
+};
+logIt();
+
+
+Output : undefined 
+
+Explanation : By default js will do all the declarative statements in the first line . 
+
+
+15 . Not understand the code explanation needed 
+
+
+16. what would following code return 
+
+console.log(typeof typeof 1);
+
+output : string
+typeof(1) = number
+typeof(number) = string
+
+
+
+
+
